@@ -1,0 +1,17 @@
+<h1 class="blue-text">
+  {{title}}
+</h1>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<button class="btn" (click)="play($event)"><i class="fa fa-play" aria-hidden="true"></i></button>
+<button class="btn" (click)="stop()"><i class="fa fa-stop" aria-hidden="true"></i></button>
+<input (mousemove)="changeVolume($event)" style="width:300px" class="range1" type="range" name="points" step="0.05" min="0.1" max="1" value="0.4">
+<!--<button class="btn" (click)="pause()"><i class="fa fa-pause" aria-hidden="true"></i></button>-->
+
+
+
+

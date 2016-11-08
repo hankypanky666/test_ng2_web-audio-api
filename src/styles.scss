@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+$blue: blue;
+
+.blue-text {
+  color: $blue;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  background-color: gray;
+  height: 2px;
+  border-radius: 15px;
+  padding: 0 3px;
+}
